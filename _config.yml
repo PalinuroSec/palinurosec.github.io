@@ -13,7 +13,7 @@ github_username:  palinurosec
 #gplus_username:  loremipsum
 linkedin_public_url: lorenzofaletra # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 #disqus_username: loremipsum
-profile_picture: https://palinurosec.github.io/src/img/blog-author.jpg
+profile_picture: https://raw.githubusercontent.com/PalinuroSec/palinurosec.github.io/master/src/img/blog-author.jpg
 
 # Build settings
 markdown: kramdown
