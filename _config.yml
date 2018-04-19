@@ -2,7 +2,7 @@
 title: Lorenzo "Palinuro" Faletra
 description: "My Website"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "https://palinurosec.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "https://palinurosec.github.io"
 
 # User settings
 username: Lorenzo Faletra
@@ -11,7 +11,7 @@ email: palinuro@parrotsec.org
 twitter_username: palinurosec
 github_username:  palinurosec
 #gplus_username:  loremipsum
-linkedin_public_url: lorenzofaletra # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: lorenzofaletra
 #disqus_username: loremipsum
 profile_picture: https://raw.githubusercontent.com/PalinuroSec/palinurosec.github.io/master/src/img/blog-author.jpg
 
@@ -59,12 +59,11 @@ links:
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: Parrot OS
+    url: https://www.parrotsec.org
+  - name: AnonSurf
+    url: https://dev.parrotsec.org/parrot/anonsurf
+
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
