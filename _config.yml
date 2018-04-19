@@ -1,7 +1,7 @@
 # Site settings
 title: Lorenzo "Palinuro" Faletra
 description: "My Website"
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+baseurl: ""
 url: "https://palinurosec.github.io"
 
 # User settings
