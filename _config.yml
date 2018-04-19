@@ -39,12 +39,9 @@ links:
     - title: series
       url: /series
       key_trigger: 3
-    - title: tags
-      url: /tags
-      key_trigger: 4
     - title: about me
       url: /about
-      key_trigger: 5
+      key_trigger: 4
   section_2:
     - title: github
       url: http://www.github.com/palinurosec
