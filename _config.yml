@@ -2,17 +2,21 @@
 title: Lorenzo "Palinuro" Faletra
 description: "My Website"
 baseurl: ""
-url: "https://palinurosec.github.io"
+url: "https://palinuro.keybase.pub"
 
 # User settings
 username: Lorenzo Faletra
 user_title: Lorenzo "Palinuro" Faletra
 email: palinuro@parrotsec.org
-twitter_username: palinurosec
+twitter_username:  palinurosec
+telegram_username: palinuro
+mastodon_username: palinuro
+mastodon_domain: social.librem.one
+matrix_username: palinuro
+matrix_domain: matrix.org
+keybase_username: palinuro
 github_username:  palinurosec
-#gplus_username:  loremipsum
 linkedin_public_url: lorenzofaletra
-#disqus_username: loremipsum
 profile_picture: https://raw.githubusercontent.com/PalinuroSec/palinurosec.github.io/master/src/img/blog-author.jpg
 
 # Build settings
@@ -36,20 +40,23 @@ links:
     - title: my posts
       url: /posts
       key_trigger: 2
-    - title: series
-      url: /series
-      key_trigger: 3
-    - title: about me
-      url: /about
-      key_trigger: 4
-  section_2:
-    - title: github
-      url: http://www.github.com/palinurosec
+    - title: my files
+      url: https://keybase.pub/palinuro/files
+      external: true
       new_tab: true
+      key_trigger: 3
+  section_2:
+    - title: curriculum vitae
+      url: /cv
+      key_trigger: c
+    - title: GPG key
+      url: https://mirror.parrot.sh/misc/palinuro.gpg
+      external: true
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/palinurosec
-      key_trigger: t
+    - title: hire me
+      url: /hire
+      key_trigger: h
+  section_3:
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
@@ -57,9 +64,9 @@ links:
 # projects in header index
 projects:
   - name: Parrot OS
-    url: https://www.parrotsec.org
+    url: https://www.parrotlinux.org
   - name: AnonSurf
-    url: https://dev.parrotsec.org/parrot/anonsurf
+    url: https://nest.parrotlinux.org/parrot/anonsurf
 
 
 # exclude my node related stuff

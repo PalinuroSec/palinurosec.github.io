@@ -25,7 +25,7 @@
     <ul>
       <li><span>1</span></li>
       <li><span> {{page.url}}</span></li>
-      <li><span>⌘ blogspace λ </span></li>
+      <li><span>⌘ palinuro@parrot λ </span></li>
       <li><span>* Menu</span></li>
     </ul>
 
@@ -42,7 +42,12 @@
       {% for link in section[1] %}
         {% if link.external %}
             <li>
-                <a href="{{ link.url }}">{{ link.title }}</a>
+            	<span class="counter-menu">{{link.key_trigger}}</span>
+                <svg viewBox="0 0 50 50" class="icon-arrow-menu">
+                    <use xlink:href="#icon-right-arrow"></use>
+                </svg>
+                <a key-trigger={{ link.key_trigger }}
+                	href="{{ link.url }}">{{ link.title }}</a>
             </li>
         {% else %}
             <li>

@@ -18,8 +18,20 @@
                 <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
             </a>
 
-            <a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
-                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+            <a aria-label="My Telegram" title="Text me on Telegram" target="_blank" href="https://t.me/{{site.telegram_username}}">
+                <img class="icon" src="/assets/img/telegram.svg"></use>
+            </a>
+
+            <a aria-label="My Mastodon" title="Follow me on Mastodon" target="_blank" href="https://{{site.mastodon_domain}}/@{{site.mastodon_username}}">
+                <img class="icon" src="/assets/img/mastodon.svg"></use>
+            </a>
+
+            <a aria-label="My Matrix" title="Text me on Matrix" target="_blank" href="https://matrix.to/#/@{{site.matrix_username}}:{{site.matrix_domain}}">
+                <img class="icon" src="/assets/img/matrix.png"></use>
+            </a>
+
+            <a aria-label="My Keybase" title="Follow me on Keybase" target="_blank" href="https://keybase.io/{{site.keybase_username}}">
+                <img class="icon" src="/assets/img/keybase.svg"></use>
             </a>
 
             <a aria-label="My Github" title="Show my projects" target="_blank" href="https://github.com/{{site.github_username}}">
@@ -29,34 +41,21 @@
             <a aria-label="My LinkedIn" title="Show my linkedin profile" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_public_url}}">
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
             </a>
-
-            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
-            </a>
         </div>
+        
+        <div class="header-site recent">
+        <h2>Who?</h2>
+		<p>Founder of <a target="_blank" href="https://parrotlinux.org">Parrot OS</a>.</p>
+		<p><a target="_blank" href="https://salsa.debian.org/palinuro-guest">Debian</a> and <a target="_blank" href="https://git.devuan.org/palinuro">Devuan</a> Lover (and occasional contributor).</p>
+		<p>Gopher and Pythonist.</p>
+		<p>Sysadmin, Pentester and ICT Security consultant.</p>
+		<p>Great supporter of RFC2549.</p>
 
-        <ul class="recent">
-            <p>Recent posts:</p>
-             {% for post in site.posts limit:3%}
-                <li>
-                    <a title="Will take a my recent post" href="{{ post.url | prepend: site.baseurl }}">
-                        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
-
-        <ul class="recent">
-            <p>Recent projects:</p>
-             {% for project in site.projects limit:3%}
-                <li>
-                    <a title="Show my recent project" href="{{ project.url}}">
-                        <h2 class="post-title" itemprop="name">{{ project.name }}</h2>
-                    </a>
-                </li>
-              {% endfor %}
-        </ul>
+		<h2>GPG</h2>
+		<h4><a target="_blank" href="https://mirror.parrot.sh/misc/palinuro.gpg">Download Key</a></h4>
+		</div>
 
     </div>
+
     {% include menu-search.html %}
 </header>
