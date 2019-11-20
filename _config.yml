@@ -37,15 +37,25 @@ links:
     - title: home
       url: /
       key_trigger: 1
-    - title: my posts
-      url: /posts
+    - title: my files (plain)
+      url: https://public.palinuro.dev
+      external: true
+      new_tab: true
       key_trigger: 2
-    - title: my files
-      url: https://keybase.pub/palinuro/files
+    - title: my files (keybase)
+      url: https://keybase.pub/palinuro/
       external: true
       new_tab: true
       key_trigger: 3
+    - title: software mirror
+      url: https://mirror.palinuro.dev
+      external: true
+      new_tab: true
+      key_trigger: 4
   section_2:
+    - title: my posts
+      url: /posts
+      key_trigger: p
     - title: curriculum vitae
       url: /cv
       key_trigger: c
