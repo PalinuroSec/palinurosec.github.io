@@ -2,5 +2,5 @@
 jekyll build
 git add .
 git commit -m "automatic site update"
-git push --mirror origin
-rsync -Pahv --exclude=files -exclude=.well-known --delete-after _site/ ../../palinuro,kbpbot/palinuro.dev/
+git push origin master
+rsync -Pahv --exclude=.well-known --delete-after _site/ ../../palinuro,kbpbot/palinuro.dev/
